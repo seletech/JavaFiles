@@ -1,4 +1,4 @@
-package selenium;
+package day6;
 
 public class ShortDemo {
 

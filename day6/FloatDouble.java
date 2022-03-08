@@ -1,4 +1,4 @@
-package selenium;
+package day6;
 
 public class FloatDouble {
 
@@ -6,7 +6,11 @@ public class FloatDouble {
 		
 		
 		
-		float num = 1.5f;
+		float num; //declaration 
+		num =   1.5f; // initialization
+		
+	
+		
 		System.out.println(num);
 		double n = 333.7;
 		System.out.println(n);
@@ -15,9 +19,13 @@ public class FloatDouble {
 		float fMin = Float.MIN_VALUE;
 		System.out.println(fMin+" " + fMax);
 		
-		
-		double dMax = Double.MAX_VALUE;
+	
+		double dMax = Double.MAX_VALUE + 10;
 		double dMin = Double.MIN_VALUE;
 		System.out.println(dMin+" " +dMax);
+		
+		
+		
+		
 	}
 }
