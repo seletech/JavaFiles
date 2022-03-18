@@ -30,6 +30,10 @@ public class Sum {
 			c--;
 		}
 
+		for(char c='a';c<='z';c++){
+		System.out.print(c);
+		}
+
 		
 	}
 }
